@@ -1,5 +1,5 @@
 # suboptimax
-minmax planner for suboptimal explanations - Explainable Agency by Revealing Suboptimality in CRI Learning Scenarios
+minmax planner for suboptimal explanations - Explainable Agency by Revealing Suboptimality in CHRI Learning Scenarios
 
 ##ROS config
 Install ROS melodic and catkin following this link: https://wiki.ros.org/catkin#Installing_catkin
