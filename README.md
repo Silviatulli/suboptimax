@@ -1,8 +1,8 @@
 # suboptimax
-minmax planner for suboptimal explanations - Explainable Agency by Revealing Suboptimality in CHRI Learning Scenarios
+minmax planner for suboptimal explanations - Explainable Agency by Revealing Suboptimality in CHRI Learning Scenarios: [springerlink](http://springer.nl.go.kr/chapter/10.1007%2F978-3-030-62056-1_3)
 
 ##ROS config
-Install ROS melodic and catkin following this link: https://wiki.ros.org/catkin#Installing_catkin
+Install ROS melodic and [catkin](https://wiki.ros.org/catkin#Installing_catkin)
 
 Clone the repository
 $ git clone https://github.com/Silviatulli/suboptimax.git
@@ -24,7 +24,7 @@ If you work with the NAO Robot uncomment the line 7, from 41 to 65 and 85 (self.
 
 export PYTHONPATH=$PYTHONPATH:~/sdk/pynaoqi-python2.7-2.1.2.17-linux64
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/<your_pc_name>/sdk/pynaoqi-python2.7-2.1.2.17-linux64
-you can download the pynaoqi sdk following this guide: http://wiki.ros.org/nao/Tutorials/Installation
+you can download the pynaoqi sdk following this [guide](http://wiki.ros.org/nao/Tutorials/Installation)
 
 Launch the code:
 
