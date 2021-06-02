@@ -28,13 +28,13 @@ To run the code:
   - $. ~/catkin_ws/devel/setup.bash
 
 - **Make sure that the CMakeLists.txt file is configured properly** 
-- All the services and the dependencies should be as follows:
-  - find_package (catkin REQUIRED COMPONENTS roscpp rospy std_msgs message_generation message_runtime )
-  - add_service_files (FILES Decision.srv GameState.srv Plan.srv RobotExplanation.srv RobotTalk.srv )
+   - All the services and the dependencies should be as follows:
+      - find_package (catkin REQUIRED COMPONENTS roscpp rospy std_msgs message_generation message_runtime )
+      - add_service_files (FILES Decision.srv GameState.srv Plan.srv RobotExplanation.srv RobotTalk.srv )
 
 - **Make it work with the Robot**
-- If you work with the NAO Robot uncomment the line 7, from 41 to 65 and 85 (self.robot_communication.say(self.explanation_text)) in the file robot_manager.py. 
-- Create a folder sdk that contains the pynaoqi sdk required and modify your bashrc ($gedit ~/.bashrc) to indicate the python and library paths as follows:
-  - export PYTHONPATH=$PYTHONPATH:~/sdk/pynaoqi-python2.7-2.1.2.17-linux64
-  - export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/<your_pc_name>/sdk/pynaoqi-python2.7-2.1.2.17-linux64
-  - you can download the pynaoqi sdk following this [guide](http://wiki.ros.org/nao/Tutorials/Installation)
+   - If you work with the NAO Robot uncomment the line 7, from 41 to 65 and 85 (self.robot_communication.say(self.explanation_text)) in the file robot_manager.py. 
+   - Create a folder sdk that contains the pynaoqi sdk required and modify your bashrc ($gedit ~/.bashrc) to indicate the python and library paths as follows:
+      - export PYTHONPATH=$PYTHONPATH:~/sdk/pynaoqi-python2.7-2.1.2.17-linux64
+      - export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/<your_pc_name>/sdk/pynaoqi-python2.7-2.1.2.17-linux64
+      - you can download the pynaoqi sdk following this [guide](http://wiki.ros.org/nao/Tutorials/Installation)
